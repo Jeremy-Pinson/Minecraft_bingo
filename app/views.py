@@ -6,7 +6,6 @@ from app import app
 @app.route('/', methods=['GET'])
 @app.route('/index', methods=['GET'])
 def list_task():
-    return render_template("page/list_task.html",
-                           title="epytodo task liste",
-                           list=get_task(),
-                           title_body="Liste of tasks")
+    return render_template("bingo.html",
+                           title="Minecraft Bingo",
+                           title_body="Bingo")
