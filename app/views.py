@@ -5,7 +5,7 @@ from app import app
 
 @app.route('/', methods=['GET'])
 @app.route('/index', methods=['GET'])
-def list_task():
+def display_bingo():
     return render_template("bingo.html",
                            title="Minecraft Bingo",
                            title_body="Bingo")
