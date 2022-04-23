@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+{% extends 'index.html' %}
+
+{%block body %}
+
+<a class="changePageButton" href="/">Go Back</a>
+
+<table>
+
+{% for chalenge in chalenges %}
+
+<tr>
+    <td>{{ chalenge[1] }}</td>
+</tr>
+
+{% endfor %}
+
+</table>
+
+<h4>Chalenge manager</h4>
+
+{% endblock %}

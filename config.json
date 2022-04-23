@@ -1,6 +1,6 @@
 {
     "username": "root",
     "password": "root",
-    "ddb_host": "127.0.0.1",
-    "ddb_name": "Minecraft_Bingo"
+    "ddb_host": "localhost",
+    "ddb_name": "minecraft_bingo"
 }
