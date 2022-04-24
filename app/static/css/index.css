@@ -1,3 +1,28 @@
-.changePageButton {
+/*
+## Jérémy Pinson
+## Bingo Race Minecraft
+## 04/2022
+*/
+
+.changePageButton 
+{
     position: static;
-    background: yellow; }
+    background: yellow;
+}
+
+td 
+{
+    border: 1px solid green;
+}
+
+table
+{
+    width: 50%;
+    height: 50%;
+}
+
+td
+{
+    width: 19%;
+    height: 19%;
+}

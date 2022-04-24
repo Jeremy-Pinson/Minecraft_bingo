@@ -1,3 +1,9 @@
+/*
+## Jérémy Pinson
+## Bingo Race Minecraft
+## 04/2022
+*/
+
 CREATE DATABASE minecraft_bingo;
 
 USE minecraft_bingo;

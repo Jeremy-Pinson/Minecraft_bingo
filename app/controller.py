@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+## Jérémy Pinson
+## Bingo Race Minecraft
+## 04/2022
+
 from app.modele import get_ddb_acces
 import pymysql
 
@@ -7,7 +11,7 @@ def getChalenges():
     acces = get_ddb_acces()
     with acces:
         with acces.cursor() as cursor:
-            request = "SELECT chalenge_name FROM chalenges"
+            request = "SELECT * FROM chalenges"
             cursor.execute(request)
             chalengesList = cursor.fetchall()
     return chalengesList

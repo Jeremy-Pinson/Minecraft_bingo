@@ -1,12 +1,53 @@
+<!--
+## Jérémy Pinson
+## Bingo Race Minecraft
+## 04/2022
+-->
+
 <!DOCTYPE html>
 
 {% extends 'index.html' %}
 
-{%block body %}
+{% block body %}
 
 <a class="changePageButton" href="/chalengeManager">Chalenge Manager</a>
 
-<h4>LE body</h4>
-<h4>{{title_body}}</h4>
+<table>
+    <tr>
+        <td><button name="button" type="button">{{ chalenges[0][1] }}</button></td>
+        <td><button name="button" type="button">{{ chalenges[1][1] }}</button></td>
+        <td>{{ chalenges[2][1] }}</td>
+        <td>{{ chalenges[3][1] }}</td>
+        <td>{{ chalenges[4][1] }}</td>
+    </tr>
+    <tr>
+        <td>{{ chalenges[5][1] }}</td>
+        <td>{{ chalenges[6][1] }}</td>
+        <td>{{ chalenges[7][1] }}</td>
+        <td>{{ chalenges[8][1] }}</td>
+        <td>{{ chalenges[9][1] }}</td>
+    </tr>
+    <tr>
+        <td>{{ chalenges[10][1] }}</td>
+        <td>{{ chalenges[11][1] }}</td>
+        <td>{{ chalenges[12][1] }}</td>
+        <td>{{ chalenges[13][1] }}</td>
+        <td>{{ chalenges[14][1] }}</td>
+    </tr>
+    <tr>
+        <td>{{ chalenges[15][1] }}</td>
+        <td>{{ chalenges[16][1] }}</td>
+        <td>{{ chalenges[17][1] }}</td>
+        <td>{{ chalenges[18][1] }}</td>
+        <td>{{ chalenges[19][1] }}</td>
+    </tr>
+    <tr>
+        <td>{{ chalenges[20][1] }}</td>
+        <td>{{ chalenges[21][1] }}</td>
+        <td>{{ chalenges[22][1] }}</td>
+        <td>{{ chalenges[23][1] }}</td>
+        <td>{{ chalenges[24][1] }}</td>
+    </tr>
+</table>
 
 {% endblock %}
